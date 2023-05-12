@@ -3,21 +3,25 @@ export const services = [
         key: 1,
         name: 'Service title-1',
         desc: 'Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.',
+        icon: 'fa-mobile'
     },
     {
         key: 2,
         name: 'Service title-2',
         desc: 'Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.',
+        icon: 'fa-database'
     },
     {
         key: 3,
         name: 'Service title-3',
         desc: 'Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.',
+        icon: 'fa-lock'
     },
     {
         key: 4,
         name: 'Service title-4',
         desc: 'Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.',
+        icon: 'fa-computer'
     },
 
 ]

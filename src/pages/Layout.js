@@ -1,16 +1,17 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import logo from '../images/addis-tech-logo.png'
-import Button from './Button'
-import Footer from './Footer'
+import Button from '../component/Button'
+import Footer from '../component/Footer'
 
 const Layout = () => {
     const handleMenu = () => {
         const hamburgerBtn = document.getElementById('hamburger-button');
         const mobileMenu = document.getElementById('list');
-
-        hamburgerBtn.classList.toggle('toggle-btn');
-        mobileMenu.classList.toggle('responsive-nav')
+        if(window.screen.width < 768 ) {
+            hamburgerBtn.classList.toggle('toggle-btn');
+            mobileMenu.classList.toggle('responsive-nav')
+        }
     }
 
 
@@ -23,7 +24,7 @@ const Layout = () => {
                 </div>
                 <ul id='list' className='items-center gap-4 hidden md:flex '>
                     <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/">HOME</Link></li>
-                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/service">SERVICES</Link></li>
+                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><a href="#services">SERVICES</a></li>
                     <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/pricing">PRICING</Link></li>
                     <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/about">ABOUT US</Link></li>
                     <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/contact">CONTACT</Link></li>
@@ -35,7 +36,7 @@ const Layout = () => {
                 </button>
             </div>
         </nav>
-        <Outlet className=' min-h-screen' />
+        <Outlet className=' min-h-screen ' />
         <Footer />
     </>
   )

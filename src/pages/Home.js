@@ -8,9 +8,9 @@ import { services } from '../data'
 import { features } from '../data'
 import { testomonials } from '../data'
 import Typical from 'react-typical'
-import Service from './Service'
-import Features from './Features'
-import Testimony from './Testimony'
+import Service from '../component/Service'
+import Features from '../component/Features'
+import Testimony from '../component/Testimony'
 import sample from '../video/connection-loop.mp4'
 
 const Home = () => {
@@ -59,7 +59,7 @@ const Home = () => {
                 <div className=' w-32 mx-1  hover:scale-[1.03] duration-300 mr-2'><img className=' w-full h-full object-scale-down' src={ride} alt='ride hailing company' /></div>
             </div>
         </section>
-        <section className=' bg-primaryColor min-h-screen lg:px-3'>
+        <section id='services' className=' bg-primaryColor min-h-screen lg:px-3'>
             <div className=' max-w-5xl px-1 sm:px-0 mx-auto mt-8 text-center py-16 '>
                 <h1 className=' text-2xl text-white sm:text-3xl font-medium px-4 uppercase'>
                     Our Services
@@ -71,6 +71,7 @@ const Home = () => {
                    {services.map((service) => (
                     <Service 
                         key={service.key}
+                        icon={service.icon}
                         title={service.name}
                         desc={service.desc}
                     />

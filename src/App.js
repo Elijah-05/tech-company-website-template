@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Layout from './component/Layout';
-import Home from './component/Home';
-import About from './component/About';
-import Contact from './component/Contact';
-import Pricing from './component/Pricing';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Pricing from './pages/Pricing';
 
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
       <Routes>
         <Route path='/' element={ <Layout /> } >
           <Route index element={ <Home /> } />
-          <Route path='about' element={ <Home /> } />
-          <Route path='contact' element={ <Home /> } />
-          <Route path='pricing' element={ <Home /> } />
+          <Route path='about' element={ <About /> } />
+          <Route path='contact' element={ <Contact /> } />
+          <Route path='pricing' element={ <Pricing /> } />
         </Route>
       </Routes>
     </div>
