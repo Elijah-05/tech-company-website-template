@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Banner = ({ heading }) => {
+const Banner = ({ heading, backgroundImg }) => {
   return (
-    <header className=' bg-slate-500 banner-h flex flex-col items-center justify-center'>
-        <h1 className=' text-5xl '>{heading}</h1>
+    <header className='banner-h flex flex-col items-center justify-center '
+      style={{ background: `linear-gradient(0deg, rgba(14, 22, 41, 0.8), rgba(25, 37, 78, 0.7) ), url('${backgroundImg}'  ` }}
+    >
+        <h1 className=' text-4xl font-semibold sm:text-3xl md:text-4xl lg:text-5xl mb-12 uppercase text-white mt-16 '>{heading}</h1>
     </header>
   )
 }

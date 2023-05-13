@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTelegramPlane, FaLinkedinIn, FaTwitter } fr
 const Footer = () => {
   return (
     <footer className=' bg-primaryColor pt-8 pb-14 px-6 '>
-        <div className=' pl-12 lg:pl-0 max-w-5xl mx-auto text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:justify-items-cent '>
+        <div className=' pl-4 md:pl-12  lg:pl-0 max-w-5xl mx-auto text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:justify-items-cent '>
 
             <ul className=' mb-8'>
                 <h3 className=' text-lg font-semibold '>Lorem ipsum dolor sit</h3>

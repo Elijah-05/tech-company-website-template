@@ -23,6 +23,10 @@
     color: #FCA311;
   }
 
+  .pricing-container:hover .price-title {
+    color: #FCA311;
+  }
+
   @media screen and (max-width: 768px) {
     .responsive-nav {
         @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500

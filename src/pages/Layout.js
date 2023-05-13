@@ -23,11 +23,11 @@ const Layout = () => {
                     <Link to="/"><img src={logo} alt='company logo' /></Link>
                 </div>
                 <ul id='list' className='items-center gap-4 hidden md:flex '>
-                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/">HOME</Link></li>
-                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><a href="#services">SERVICES</a></li>
-                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/pricing">PRICING</Link></li>
-                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/about">ABOUT US</Link></li>
-                    <li className='text-white hover:opacity-75 duration-200 pt-1' onClick={handleMenu} ><Link to="/contact">CONTACT</Link></li>
+                    <li className='text-white hover:text-secondaryColor duration-200 pt-1' onClick={handleMenu} ><Link to="/">HOME</Link></li>
+                    <li className='text-white hover:text-secondaryColor duration-200 pt-1' onClick={handleMenu} ><a href="#services">SERVICES</a></li>
+                    <li className='text-white hover:text-secondaryColor duration-200 pt-1' onClick={handleMenu} ><Link to="/pricing">PRICING</Link></li>
+                    <li className='text-white hover:text-secondaryColor duration-200 pt-1' onClick={handleMenu} ><Link to="/about">ABOUT US</Link></li>
+                    <li className='text-white hover:text-secondaryColor duration-200 pt-1' onClick={handleMenu} ><Link to="/contact">CONTACT</Link></li>
                     <Button text="Get Started" />
                 </ul>
                 <button id='hamburger-button' className='md:hidden cursor-pointer relative w-8 h-8 mr-1 ml-4' onClick={handleMenu} >
