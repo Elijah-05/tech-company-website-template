@@ -2,7 +2,7 @@ import React from "react";
 
 const Staff = ({ name, position, photo }) => {
   return (
-    <div className="group relative staf-container w-[250px] sm:w-[230px] flex flex-col items-center pt-1 ">
+    <div className="group relative staf-container w-[250px] sm:w-[230px] flex flex-col items-center pt-1 shadow-lg rounded-b-2xl ">
       <div className="div-bg duration-500 absolute bottom-[50px] bg-[#19254e] w-full h-[170px] group-hover:h-[90px] flex justify-center rounded-t-3xl origin-bottom  ">
         <img
           className=" absolute bottom-0 h-[240px] object-cover  group-hover:h-[250px] group-hover:sm:h-[250px]  mx-auto origin-bottom duration-300 "

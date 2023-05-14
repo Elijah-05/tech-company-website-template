@@ -54,16 +54,17 @@ const About = () => {
         </div>
         <div className=" members-container mt-12 ">
           <h1 className=" text-2xl sm:text-3xl font-medium px-4 uppercase">
-            About us
+            meet our staff
           </h1>
           <p className=" text-sm sm:text-base opacity-70 px-4 lg:px-0 ">
             Lorem ipsum dolor sit amet consectetur. Dignissim enim semper
             porttitor dolor integer. Donec faucibus pellentesque at morbi
-            faucibus.
+            faucibus. Dignissim enim semper porttitor dolor integer.
           </p>
           <div className=" mt-[260px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-y-[260px] sm:gap-y-[270px] ">
             {staffData.map((staf) => (
               <Staff
+                key={staf.id}
                 photo={staf.photo}
                 name={staf.name}
                 position={staf.position}

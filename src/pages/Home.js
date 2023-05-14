@@ -14,7 +14,7 @@ const Home = () => {
     <main className=" ">
       <header className=" banner-h relative bg-mobile-bg bg-cover bg-right flex flex-col items-center justify-center ">
         <video
-          className=" hidden md:block w-full h-full object-cover "
+          className=" hidden md:block opacity-70 w-full h-full object-cover "
           autoPlay
           loop
           muted

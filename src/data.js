@@ -3,7 +3,7 @@ import avatar2 from "./images/avatar2.jpg";
 import avatar3 from "./images/avatar3.jpg";
 import staff1 from "./images/staff-member1.png";
 import staff2 from "./images/staff-member2.png";
-import staff3 from "./images/staff-member3.png";
+import staff3 from "./images/staff-member0.png";
 import staff4 from "./images/staff-member4.png";
 import staff5 from "./images/staff-member5.png";
 import staff6 from "./images/staff-member6.png";
@@ -37,31 +37,37 @@ export const services = [
 
 export const staffData = [
   {
+    id: 1,
     name: "Yisake Abera",
     position: "UI/UX Designer",
     photo: staff1,
   },
   {
+    id: 2,
     name: "Nebiyu Yigerem",
     position: "Project Manager",
     photo: staff4,
   },
   {
+    id: 3,
     name: "Mena Mengistu",
     position: "Quality Assurance",
     photo: staff5,
   },
   {
+    id: 4,
     name: "Hagos Demeke",
     position: "Marketing Officer",
     photo: staff2,
   },
   {
-    name: "Yared Amare",
+    id: 5,
+    name: "Elyas Abebe",
     position: "Full Stack Developer",
     photo: staff3,
   },
   {
+    id: 6,
     name: "Lulit Sitotaw",
     position: "Sales Executive",
     photo: staff6,
