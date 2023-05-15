@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import logo from "./images/addis-tech-logo.png";
+import navBarLogo from "./images/addis-logo.png";
 import Button from "./component/Button";
 import Footer from "./component/Footer";
 
@@ -20,7 +21,7 @@ const Layout = () => {
         <div className="container px-2 lg:px-0 max-w-5xl  mx-auto flex items-center justify-between h-16 ">
           <div className=" w-32 sm:w-36 lg:w-40 hover:scale-[1.03] duration-200 ">
             <Link to="/">
-              <img src={logo} alt="company logo" />
+              <img src={navBarLogo} alt="company logo" />
             </Link>
           </div>
           <ul id="list" className="items-center gap-4 hidden md:flex ">

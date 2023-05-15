@@ -8,6 +8,7 @@ import Service from "../component/Service";
 import Features from "../component/Features";
 import Testimony from "../component/Testimony";
 import sample from "../video/connection-loop.mp4";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -39,11 +40,13 @@ const Home = () => {
           <h1 className=" text-3xl text-white font-semibold text-center mb-6 sm:hidden px-4">
             Launch Your Creative Business
           </h1>
-          <button className="group bg-secondaryColor w-56 py-3 px-4 sm:py-3 sm:px-8 sm:w-[320px] rounded-full hover:bg-btnHover hover:scale-[1.02] duration-300">
-            <h2 className="text-lg sm:text-2xl group-hover:text-white duration-300">
-              Get Started
-            </h2>
-          </button>
+          <Link to="started">
+            <button className="group bg-secondaryColor w-56 py-3 px-4 sm:py-3 sm:px-8 sm:w-[320px] rounded-full hover:bg-btnHover hover:scale-[1.02] duration-300">
+              <h2 className="text-lg sm:text-2xl group-hover:text-white duration-300">
+                Get Started
+              </h2>
+            </button>
+          </Link>
         </div>
       </header>
       <WorkedWith />

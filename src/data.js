@@ -11,25 +11,25 @@ import staff6 from "./images/staff-member6.png";
 export const services = [
   {
     key: 1,
-    name: "Service title-1",
+    name: "App Development",
     desc: "Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.",
     icon: "fa-mobile",
   },
   {
     key: 2,
-    name: "Service title-2",
+    name: "Web Hosting",
     desc: "Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.",
     icon: "fa-database",
   },
   {
     key: 3,
-    name: "Service title-3",
+    name: "Secured System",
     desc: "Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.",
     icon: "fa-lock",
   },
   {
     key: 4,
-    name: "Service title-4",
+    name: "Cloud Storage",
     desc: "Lorem ipsum dolor sit amet consectetur. Lacus ullamcorper blandit ut nisl iaculis. Luctus cras risus viverra netus eu. Urna nunc condimentum tincidunt parturient suspendisse posuere. Libero in id vitae purus quis mattis.",
     icon: "fa-computer",
   },
@@ -77,37 +77,37 @@ export const staffData = [
 export const features = [
   {
     key: 1,
-    feature: "Feature One Title",
+    feature: "High Security",
     desc: "Lorem ipsum dolor sit amet consectetur. Eget sed feugiat tincidunt blandit pellentesque.",
     icon: "fa-shield",
   },
   {
     key: 2,
-    feature: "Feature Two Title",
+    feature: "Accessible Database",
     desc: "Lorem ipsum dolor sit amet consectetur. Eget sed feugiat tincidunt blandit pellentesque.",
     icon: "fa-database",
   },
   {
     key: 3,
-    feature: "Feature Three Title",
+    feature: "Customized Features",
     desc: "Lorem ipsum dolor sit amet consectetur. Eget sed feugiat tincidunt blandit pellentesque.",
     icon: "fa-cogs",
   },
   {
     key: 4,
-    feature: "Feature Four Title",
+    feature: "Fast Uploading",
     desc: "Lorem ipsum dolor sit amet consectetur. Eget sed feugiat tincidunt blandit pellentesque.",
     icon: "fa-cloud-upload",
   },
   {
     key: 5,
-    feature: "Feature Five Title",
+    feature: "Active Server",
     desc: "Lorem ipsum dolor sit amet consectetur. Eget sed feugiat tincidunt blandit pellentesque.",
     icon: "fa-server",
   },
   {
     key: 6,
-    feature: "Feature Six Title",
+    feature: "Two Step Verified",
     desc: "Lorem ipsum dolor sit amet consectetur. Eget sed feugiat tincidunt blandit pellentesque.",
     icon: "fa-unlock-alt",
   },

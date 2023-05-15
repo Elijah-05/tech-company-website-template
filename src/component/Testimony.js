@@ -11,9 +11,7 @@ const Testimony = ({ name, photo, testimony, position }) => {
         ></img>
       </div>
       <div></div>
-      <p className=" mt-8 mb-4 opacity-60 group-hover:opacity-100 duration-300">
-        {testimony}
-      </p>
+      <p className=" mt-8 mb-4 duration-300">{testimony}</p>
       <p className="text-sm font-light">
         <span className="font-semibold ">{name}/</span>
         {position}
