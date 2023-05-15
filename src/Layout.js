@@ -1,8 +1,8 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import logo from "../images/addis-tech-logo.png";
-import Button from "../component/Button";
-import Footer from "../component/Footer";
+import logo from "./images/addis-tech-logo.png";
+import Button from "./component/Button";
+import Footer from "./component/Footer";
 
 const Layout = () => {
   const handleMenu = () => {
@@ -25,7 +25,7 @@ const Layout = () => {
           </div>
           <ul id="list" className="items-center gap-4 hidden md:flex ">
             <li
-              className="text-white hover:text-secondaryColor duration-200 pt-1"
+              className="text-white active:text-secondaryColor hover:text-secondaryColor duration-200 pt-1"
               onClick={handleMenu}
             >
               <Link to="/">HOME</Link>
@@ -40,21 +40,23 @@ const Layout = () => {
               className="text-white hover:text-secondaryColor duration-200 pt-1"
               onClick={handleMenu}
             >
-              <Link to="/pricing">PRICING</Link>
+              <Link to="pricing">PRICING</Link>
             </li>
             <li
               className="text-white hover:text-secondaryColor duration-200 pt-1"
               onClick={handleMenu}
             >
-              <Link to="/about">ABOUT US</Link>
+              <Link to="about">ABOUT US</Link>
             </li>
             <li
               className="text-white hover:text-secondaryColor duration-200 pt-1"
               onClick={handleMenu}
             >
-              <Link to="/contact">CONTACT</Link>
+              <Link to="contact">CONTACT</Link>
             </li>
-            <Button text="Get Started" />
+            <Link to="started" onClick={handleMenu}>
+              <Button text="Get Started" />
+            </Link>
           </ul>
           <button
             id="hamburger-button"

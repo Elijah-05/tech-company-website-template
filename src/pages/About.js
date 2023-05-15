@@ -8,7 +8,7 @@ import WorkedWith from "../component/WorkedWith";
 
 const About = () => {
   return (
-    <section className=" min-h-screen ">
+    <section className=" min-h-screen scroll-m-0 ">
       <Banner backgroundImg={bannerImage} heading="Who We Are?" />
       <div className=" max-w-5xl mx-auto my-12 text-center lg:px-2">
         <h1 className=" text-2xl sm:text-3xl font-medium px-4 uppercase">

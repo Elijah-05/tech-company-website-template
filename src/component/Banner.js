@@ -10,7 +10,7 @@ const Banner = ({ heading, backgroundImg }) => {
         backgroundPosition: "center",
       }}
     >
-      <h1 className=" text-3xl font-semibold md:text-4xl lg:text-5xl mb-12 uppercase text-white mt-16 ">
+      <h1 className=" text-3xl text-center font-semibold md:text-4xl lg:text-5xl mb-12 uppercase text-white mt-16 ">
         {heading}
       </h1>
     </header>

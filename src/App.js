@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
+import GetStarted from "./pages/GetStarted";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="pricing" element={<Pricing />} />
+          <Route path="started" element={<GetStarted />} />
         </Route>
       </Routes>
     </div>
