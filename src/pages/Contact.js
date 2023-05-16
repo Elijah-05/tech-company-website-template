@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div className="max-w-[280px] sm:w-[200px] text-left ">
                   <h2 className="text-lg text-primaryColor font-bold mt-1 group-hover:text-black duration-300">
-                    Lorem ipsum dolor sit
+                    (+251) 32 12 34567
                   </h2>
                   <p className="  ">
                     Lorem ipsum dolor sit amet consectetur. Facilisi.
@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div className="max-w-[280px] sm:w-[200px] text-left ">
                   <h2 className="text-lg text-primaryColor font-bold mt-1 group-hover:text-black duration-300">
-                    Lorem ipsum dolor sit
+                    sample@gmail.com
                   </h2>
                   <p className="  ">
                     Lorem ipsum dolor sit amet consectetur. Facilisi.
@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div className="max-w-[280px] sm:w-[200px] text-left ">
                   <h2 className="text-lg text-primaryColor font-bold mt-1 group-hover:text-black duration-300">
-                    Lorem ipsum dolor sit
+                    Addis Ababa, Ethiopia
                   </h2>
                   <p className="  ">
                     Lorem ipsum dolor sit amet consectetur. Facilisi.
@@ -85,7 +85,7 @@ const Contact = () => {
                 <input
                   className=" block w-full py-2 indent-3 rounded-md outline-secondaryColor "
                   id="name"
-                  name="name"
+                  name="subscriberName"
                   type="text"
                   placeholder="Enter your Name"
                 ></input>
@@ -98,7 +98,7 @@ const Contact = () => {
                   className=" block w-full py-2 indent-3 rounded-md outline-secondaryColor "
                   id="email"
                   type="email"
-                  name="email"
+                  name="subscriberEmail"
                   placeholder="Enter your Name"
                 ></input>
               </div>
@@ -110,13 +110,16 @@ const Contact = () => {
                   className=" block w-full py-2 indent-3 rounded-md outline-secondaryColor "
                   id="message"
                   type="text"
-                  name="message"
+                  name="subscriberMessage"
                   placeholder="Message"
                   rows={5}
                 ></textarea>
               </div>
               <div className="">
-                <button className="bg-btnHover w-full py-3 rounded-xl text-white hover:shadow-md hover:bg-secondaryColor">
+                <button
+                  className="bg-btnHover w-full py-3 rounded-xl text-white hover:shadow-md hover:bg-secondaryColor"
+                  type="submit"
+                >
                   Submit
                 </button>
               </div>

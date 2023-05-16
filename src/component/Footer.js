@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className=" bg-primaryColor pt-8 pb-10 px-6 ">
       <div className=" pl-4 md:pl-12  lg:pl-0 max-w-5xl mx-auto text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:justify-items-cent ">
         <ul className=" mb-8">
-          <h3 className=" text-lg font-semibold ">Lorem ipsum dolor sit</h3>
+          <h3 className=" text-lg font-semibold ">About us</h3>
           <li className=" text-sm font-light my-1 opacity-75 hover:opacity-100 hover:text-secondaryColor duration-100">
             <a href="#sd">Lorem ipsum</a>
           </li>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </ul>
         <ul className=" mb-8 ">
-          <h3 className=" text-lg font-semibold ">Lorem ipsum dolor sit</h3>
+          <h3 className=" text-lg font-semibold ">Product and Services</h3>
           <li className=" text-sm font-light my-1 opacity-75 hover:opacity-100 hover:text-secondaryColor duration-100">
             <a href="#sd">Lorem ipsum</a>
           </li>
@@ -53,7 +53,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className=" mb-8 ">
-          <h3 className=" text-lg font-semibold ">Lorem ipsum dolor sit</h3>
+          <h3 className=" text-lg font-semibold ">Privacy Policy</h3>
           <li className=" text-sm font-light my-1 opacity-75 hover:opacity-100 hover:text-secondaryColor duration-100">
             <a href="#sd">Lorem ipsum</a>
           </li>
@@ -74,7 +74,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className=" mb-8 ">
-          <h3 className=" text-lg font-semibold ">Lorem ipsum dolor sit</h3>
+          <h3 className=" text-lg font-semibold ">Related Links</h3>
           <li className=" text-sm font-light my-1 opacity-75 hover:opacity-100 hover:text-secondaryColor duration-100">
             <a href="#sd">Lorem ipsum</a>
           </li>

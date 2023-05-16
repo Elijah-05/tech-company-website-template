@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import logo from "./images/addis-tech-logo.png";
+// import logo from "./images/addis-tech-logo.png";
 import navBarLogo from "./images/addis-logo.png";
 import Button from "./component/Button";
 import Footer from "./component/Footer";
