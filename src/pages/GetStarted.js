@@ -45,7 +45,6 @@ const GetStarted = () => {
     setUser({ ...user, [name]: !user[name] });
   };
 
-  console.log("Step: ", step);
   const handleNext = () => {
     if (step < 3 && progress < 100) {
       setStep(step + 1);
@@ -126,8 +125,6 @@ const GetStarted = () => {
   const scrollToSection = () => {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
-
-  // console.log(user);
 
   return (
     <section className=" min-h-screen ">
