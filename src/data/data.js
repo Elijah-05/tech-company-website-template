@@ -169,3 +169,31 @@ export const pricing_plan = {
     "Service level agreements (SLAs) for uptime and response times",
   ],
 };
+
+export const footerListText = {
+  about_us: ["About Us", "Contact Us", "Careers", "Our Team"],
+  product_and_services: [
+    "Solutions",
+    "Pricing",
+    "Features",
+    "Integrations",
+    "Demo",
+    "Free Trial",
+  ],
+  privacy_policy: [
+    "Terms of Service",
+    "Privacy Policy",
+    "Cookie Policy",
+    "Data Protection",
+    "Security Measures",
+    "Compliance",
+  ],
+  related_links: [
+    "Case Studies",
+    "Blog",
+    "Whitepapers",
+    "Webinars",
+    "eBooks",
+    "Video Tutorials",
+  ],
+};
