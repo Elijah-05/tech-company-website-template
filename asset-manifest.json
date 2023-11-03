@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tech-company-website-template/static/css/main.fc6cd44e.css",
+    "main.js": "/tech-company-website-template/static/js/main.41565573.js",
+    "static/media/connection-loop.mp4": "/tech-company-website-template/static/media/connection-loop.214edce60dcedbef5276.mp4",
+    "static/media/pricing-page-banner.png": "/tech-company-website-template/static/media/pricing-page-banner.1575e4de164d17d254b6.png",
+    "static/media/staff-member2.png": "/tech-company-website-template/static/media/staff-member2.77c58576b42c2141c26a.png",
+    "static/media/staff-member5.png": "/tech-company-website-template/static/media/staff-member5.65e3c354428ad7999bbc.png",
+    "static/media/staff-member6.png": "/tech-company-website-template/static/media/staff-member6.292ee7ebaf9191bb4bc6.png",
+    "static/media/staff-member0.png": "/tech-company-website-template/static/media/staff-member0.e8cb8b3af6dcc0c09a14.png",
+    "static/media/staff-member4.png": "/tech-company-website-template/static/media/staff-member4.a110612928dbd2775c00.png",
+    "static/media/staff-member1.png": "/tech-company-website-template/static/media/staff-member1.2776c56748d6ede18463.png",
+    "static/media/kefeta.png": "/tech-company-website-template/static/media/kefeta.01267b40c8a9629e304a.png",
+    "static/media/ride.png": "/tech-company-website-template/static/media/ride.b145e146ab0aad36c881.png",
+    "static/media/banner-md.jpg": "/tech-company-website-template/static/media/banner-md.a0a64fa01d41d38e761b.jpg",
+    "static/media/get-started-page-banner.jpg": "/tech-company-website-template/static/media/get-started-page-banner.2d3c6a5be539bb1e4ba4.jpg",
+    "static/media/addis_ababa_university.png": "/tech-company-website-template/static/media/addis_ababa_university.6dbf7e29601d7fffed52.png",
+    "static/media/about-us-banner.jpg": "/tech-company-website-template/static/media/about-us-banner.d1c0ee16576559593bb7.jpg",
+    "static/media/about-us-office.jpg": "/tech-company-website-template/static/media/about-us-office.a2c9896df79ad910c905.jpg",
+    "static/media/Safaricom_Ethiopia_Logo.jpg": "/tech-company-website-template/static/media/Safaricom_Ethiopia_Logo.74aa91753dc346439cf4.jpg",
+    "static/media/contac-page-banner.jpg": "/tech-company-website-template/static/media/contac-page-banner.53e9b947ce6147772529.jpg",
+    "static/media/avatar1.jpg": "/tech-company-website-template/static/media/avatar1.455fd81380512d095e20.jpg",
+    "static/media/avatar3.jpg": "/tech-company-website-template/static/media/avatar3.8879846426b28139903b.jpg",
+    "static/media/avatar2.jpg": "/tech-company-website-template/static/media/avatar2.5353ddd538fe8a498e27.jpg",
+    "index.html": "/tech-company-website-template/index.html",
+    "main.fc6cd44e.css.map": "/tech-company-website-template/static/css/main.fc6cd44e.css.map",
+    "main.41565573.js.map": "/tech-company-website-template/static/js/main.41565573.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc6cd44e.css",
+    "static/js/main.41565573.js"
+  ]
+}
