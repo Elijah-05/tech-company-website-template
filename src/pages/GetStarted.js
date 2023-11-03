@@ -1,7 +1,7 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Banner from "../component/Banner";
-import bannerImage from "../images/get-started-page-banner.jpg";
+import bannerImage from "../assets/images/get-started-page-banner.jpg";
 import PersonalInformation from "../component/PersonalInformation";
 import CompanyInformation from "../component/CompanyInformation";
 import SurveryForm from "../component/SurveryForm";
@@ -24,7 +24,7 @@ const GetStarted = () => {
     comment: "",
   });
   const [step, setStep] = useState(1);
-  const [progress, setProgress] = useState(20);
+  const [progress, setProgress] = useState(25);
   const progressColor = ["#FCA311", "#E0A319", "#94A22E", "#61A13C", "#12A052"];
   const stage = ["Step-1", "Step-2", "Step-3", "Step-4", "Finished!"];
   const pageHead = [
@@ -33,6 +33,7 @@ const GetStarted = () => {
     "Survey Form",
     "Confirm Your Information",
   ];
+  const sectionRef = useRef(null);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -44,16 +45,20 @@ const GetStarted = () => {
     setUser({ ...user, [name]: !user[name] });
   };
 
+  console.log("Step: ", step);
   const handleNext = () => {
-    if (step < 5 && progress < 100) {
+    if (step < 3 && progress < 100) {
+      setStep(step + 1);
+      setProgress(progress + 25);
+    } else if (step === 3) {
       setStep(step + 1);
       setProgress(progress + 20);
     }
   };
   const handlePrev = () => {
-    if (step > 1 && progress > 20) {
+    if (step > 1 && progress > 25) {
       setStep(step - 1);
-      setProgress(progress - 20);
+      setProgress(progress - 25);
     }
   };
 
@@ -113,8 +118,13 @@ const GetStarted = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setProgress(100);
     setStep(5);
-    // console.log("Submitted!");
+    scrollToSection();
+  };
+
+  const scrollToSection = () => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   // console.log(user);
@@ -132,7 +142,10 @@ const GetStarted = () => {
           faucibus.
         </p>
 
-        <div className="form-conatiner mt-8 bg-gray-300 max-w-[750px] px-3 rounded-md sm:px-[44px] py-[20px] mx-auto duration-700 ">
+        <div
+          ref={sectionRef}
+          className=" scroll-mt-24 form-conatiner mt-8 bg-gray-300 max-w-[750px] px-3 rounded-md sm:px-[44px] py-[20px] mx-auto duration-700 "
+        >
           <div className="inner-container sm:border-2 border-slate-200 w-full pb-[80px]">
             <div className="progress-conatiner mt-3">
               <div className="w-full bg-slate-50 h-3 rounded-full">
@@ -151,7 +164,7 @@ const GetStarted = () => {
               <h1 className="text-center text-3xl font-medium">
                 {pageHead[step - 1]}
               </h1>
-              <div className="max-w-[430px] mx-auto  ">
+              <div className=" max-w-[430px] mx-auto  ">
                 <form
                   className="my-8 flex flex-col gap-y-4 "
                   onSubmit={(e) => handleSubmit(e)}

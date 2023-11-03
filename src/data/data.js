@@ -1,12 +1,12 @@
-import avatar1 from "./images/avatar1.jpg";
-import avatar2 from "./images/avatar2.jpg";
-import avatar3 from "./images/avatar3.jpg";
-import staff1 from "./images/staff-member1.png";
-import staff2 from "./images/staff-member2.png";
-import staff3 from "./images/staff-member0.png";
-import staff4 from "./images/staff-member4.png";
-import staff5 from "./images/staff-member5.png";
-import staff6 from "./images/staff-member6.png";
+import avatar1 from "../assets/images/avatar1.jpg";
+import avatar2 from "../assets/images/avatar2.jpg";
+import avatar3 from "../assets/images/avatar3.jpg";
+import staff1 from "../assets/images/staff-member1.png";
+import staff2 from "../assets/images/staff-member2.png";
+import staff3 from "../assets/images/staff-member0.png";
+import staff4 from "../assets/images/staff-member4.png";
+import staff5 from "../assets/images/staff-member5.png";
+import staff6 from "../assets/images/staff-member6.png";
 
 export const services = [
   {

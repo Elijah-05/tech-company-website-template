@@ -3,7 +3,7 @@ import React from "react";
 const Banner = ({ heading, backgroundImg }) => {
   return (
     <header
-      className="banner-h flex flex-col items-center justify-center "
+      className=" h-96 flex flex-col items-center justify-center "
       style={{
         background: `linear-gradient(0deg, rgba(14, 22, 41, 0.8), rgba(25, 37, 78, 0.7) ), url('${backgroundImg}') `,
         backgroundSize: "cover",

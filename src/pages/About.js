@@ -1,8 +1,8 @@
 import React from "react";
 import Banner from "../component/Banner";
-import bannerImage from "../images/about-us-banner.jpg";
-import office from "../images/about-us-office.jpg";
-import { staffData } from "../data";
+import bannerImage from "../assets/images/about-us-banner.jpg";
+import office from "../assets/images/about-us-office.jpg";
+import { staffData } from "../data/data";
 import Staff from "../component/Staff";
 import WorkedWith from "../component/WorkedWith";
 

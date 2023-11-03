@@ -1,19 +1,17 @@
 import React from "react";
-import { services } from "../data";
-import { features } from "../data";
-import { testomonials } from "../data";
+import { services, features, testomonials } from "../data/data";
 import Typical from "react-typical";
 import WorkedWith from "../component/WorkedWith";
 import Service from "../component/Service";
 import Features from "../component/Features";
 import Testimony from "../component/Testimony";
-import sample from "../video/connection-loop.mp4";
+import sample from "../assets/video/connection-loop.mp4";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <main className=" ">
-      <header className=" banner-h relative bg-mobile-bg bg-cover bg-right flex flex-col items-center justify-center ">
+      <header className=" banner-h relative mobile-bg bg-cover bg-right flex flex-col items-center justify-center ">
         <video
           className=" hidden md:block opacity-70 w-full h-full object-cover "
           autoPlay
@@ -50,7 +48,10 @@ const Home = () => {
         </div>
       </header>
       <WorkedWith />
-      <section id="services" className=" bg-primaryColor min-h-screen lg:px-3">
+      <section
+        id="services"
+        className=" bg-primaryColor min-h-screen lg:px-3 scroll-mt-10"
+      >
         <div className=" max-w-5xl px-1 sm:px-0 mx-auto mt-8 text-center py-16 ">
           <h1 className=" text-2xl text-white sm:text-3xl font-medium px-4 uppercase">
             Our Services

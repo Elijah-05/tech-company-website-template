@@ -1,8 +1,8 @@
 import React from "react";
 import Banner from "../component/Banner";
-import bannerImage from "../images/pricing-page-banner.png";
+import bannerImage from "../assets/images/pricing-page-banner.png";
 import PricingCard from "../component/PricingCard";
-import { pricing_plan } from "../data";
+import { pricing_plan } from "../data/data";
 
 const Pricing = () => {
   return (

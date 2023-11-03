@@ -1,9 +1,9 @@
 import React from "react";
-import aaUniversity from "../images/addis_ababa_university.png";
-import dangote from "../images/dangote.jpg";
-import kefeta from "../images/kefeta.png";
-import safaricom from "../images/Safaricom_Ethiopia_Logo.jpg";
-import ride from "../images/ride.png";
+import aaUniversity from "../assets/images/addis_ababa_university.png";
+import dangote from "../assets/images/dangote.jpg";
+import kefeta from "../assets/images/kefeta.png";
+import safaricom from "../assets/images/Safaricom_Ethiopia_Logo.jpg";
+import ride from "../assets/images/ride.png";
 
 const WorkedWith = () => {
   return (

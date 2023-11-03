@@ -1,5 +1,4 @@
 import React from "react";
-import { useRef } from "react";
 
 const CompanyInformation = ({
   user,
@@ -9,7 +8,6 @@ const CompanyInformation = ({
   handleNext,
   handlePrev,
 }) => {
-  const page = useRef();
   return (
     <div className="animate-slow-slide-l duration-700 grid gap-y-4">
       <div className="flex flex-col">
