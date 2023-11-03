@@ -139,3 +139,33 @@ export const testomonials = [
     photo: avatar3,
   },
 ];
+
+export const pricing_plan = {
+  starter: [
+    "Basic functionality",
+    "Limited storage",
+    "Email support",
+    "Access to core features",
+    "24/7 customer support",
+    "Single user license",
+    "Standard security measures",
+  ],
+  pro: [
+    "Advanced functionality",
+    "Unlimited storage",
+    "Priority email and phone support",
+    "Access to all features",
+    "Multi-user license",
+    "Enhanced security measures",
+    "Dedicated account manager and onboarding support",
+  ],
+  premium: [
+    "Full suite of advanced functionality",
+    "Unlimited storage and bandwidth",
+    "Priority email, phone, and chat support",
+    "Advanced reporting and analytics with custom dashboards",
+    "Integration with enterprise apps and APIs",
+    "Dedicated account manager and onboarding support",
+    "Service level agreements (SLAs) for uptime and response times",
+  ],
+};

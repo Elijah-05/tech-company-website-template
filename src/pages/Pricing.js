@@ -2,6 +2,8 @@ import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 import Banner from "../component/Banner";
 import bannerImage from "../images/pricing-page-banner.png";
+import PricingCard from "../component/PricingCard";
+import { pricing_plan } from "../data";
 
 const Pricing = () => {
   return (
@@ -17,14 +19,15 @@ const Pricing = () => {
           faucibus.
         </p>
 
-        <div className=" mt-10 mx-2 sm:mx-0 flex flex-col items-center md:flex-row justify-between ">
-          <div className="pricing-container bg-slate-200  sm:w-[320px] max-w-[370px] min-h-[470px] rounded-xl flex flex-col justify-between py-6 px-4 lg:px-4 md:px-3 lg:hover:scale-[1.005]  hover:-translate-y-2 hover:shadow-xl duration-300 my-4 lg:my-0 mx-1">
+        <div className=" mt-10 mx-2 sm:mx-0 flex flex-col items-stretch md:flex-row justify-between ">
+          {/* <div className="pricing-container bg-slate-200  sm:w-[320px] max-w-[370px] min-h-[470px] rounded-xl flex flex-col justify-between py-6 px-4 lg:px-4 md:px-3 lg:hover:scale-[1.005]  hover:-translate-y-2 hover:shadow-xl duration-300 my-4 lg:my-0 mx-1">
             <div className=" mt-3">
               <h2 className="price-title text-center text-2xl font-semibold duration-200 ">
                 Starter
               </h2>
-              <h1 className=" text-center font-medium ">
-                <span className=" text-4xl  ">699</span>.00
+              <h1 className="group-hover:text-secondaryColor text-center font-medium duration-700 ">
+                <span className=" text-4xl  ">699</span>
+                .00
               </h1>
               <p className=" text-center font-light ">
                 <span className=" font-medium">Birr/</span>month
@@ -158,8 +161,24 @@ const Pricing = () => {
             <button className=" bg-secondaryColor font-semibold hover:text-white py-3 rounded-full w-3/4 min-w-40 mx-auto ">
               Start Now!
             </button>
-          </div>
+          </div> */}
+          <PricingCard
+            name={"Starter"}
+            price={699}
+            features={pricing_plan.starter}
+          />
+          <PricingCard
+            name={"Pro"}
+            price={1650.99}
+            features={pricing_plan.pro}
+          />
+          <PricingCard
+            name={"Premium"}
+            price={2499.99}
+            features={pricing_plan.premium}
+          />
         </div>
+
         <p className=" text-center px-4 mt-12">
           Lorem ipsum dolor sit amet consectetur. Fringilla amet semper quam
           ultrices senectus consequat. Neque semper leo viverra commodo viverra

@@ -1,36 +1,31 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
-
   html {
     scroll-behavior: smooth;
   }
 
   .banner-h {
-    height: calc(100vh - 64px);
+    height: calc(100vh);
   }
 
   .toggle-btn {
-    @apply [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div::after]:translate-y-0 [&>div::after]:rotate-45 [&>div]:bg-transparent [&>div]:-rotate-180
+    @apply [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div::after]:translate-y-0 [&>div::after]:rotate-45 [&>div]:bg-transparent [&>div]:-rotate-180;
   }
 
   #feature:hover .feature {
-    color: #FCA311;
+    color: #fca311;
   }
 
   .pricing-container:hover .price-title {
-    color: #FCA311;
+    color: #fca311;
   }
 
   @media screen and (max-width: 768px) {
     .responsive-nav {
-        @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500
+      @apply flex flex-col items-center h-80 justify-between py-4 absolute w-screen top-14 bg-primaryColor left-0 z-50 duration-500;
     }
   }
-
 }
